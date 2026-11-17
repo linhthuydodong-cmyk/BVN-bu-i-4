@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVN</title>
+</head>
+<body>
+    <h1 style="color: rgb(255, 77, 0);text-align: center;background-color: azure;">Form thông tin cá nhân</h1>
+    <form action="/action_page.php" method="post" target="_blank">
+        <fieldset style=" margin-bottom: 10%; border-radius: 5%; width: 300px; height: 200px; border: 2px solid rgba(0, 0, 0, 0.769); padding: 10px;">
+            <legend><b style="color: rgb(0, 0, 0);">Thông tin cá nhân</b></legend>
+            <label for="name" >Họ và tên:</label>
+            <input  style="margin-bottom: 10px;" type="text" id="name" name="name"><br>
+            <label for="email" >Địa chỉ Email:</label>
+            <input  style="margin-bottom: 10px;" type="email" id="email" name="email"><br>
+            <label for="tel">Số điện thoại:</label>
+            <input  style="margin-bottom: 10px;" type="tel" id="tel" name="tel"><br>
+        </fieldset>
+        <fieldset style=" border-radius: 5%; width: 350px; height: 250px; border: 2px solid rgba(0, 0, 0, 0.769); padding: 10px;">
+            <legend><b style="color: rgb(0, 0, 0);">Thư giới thiệu bản thân</b></legend>
+            <textarea name="message" rows="10" cols="20" placeholder="Viết thư giới thiệu bản thân..."></textarea><br>
+            <label for="file" >Tải lên file:</label>
+            <input  style="margin-bottom: 10px;" type="file" id="file" name="file"><br>
+        </fieldset>
+        <input style="background-color: blue; color: white;  ; border: 1px solid #000; " type="submit" value="Gửi">
+    </form>
+</body>
+</html>
